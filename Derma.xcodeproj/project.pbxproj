@@ -7,23 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F80FE2D22D7E548B00620788 /* GuidedTourManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FE2D12D7E548A00620788 /* GuidedTourManager.swift */; };
+		F80FE2DB2D7E60AF00620788 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FE2D92D7E60A900620788 /* HistoryVC.swift */; };
+		F80FE2E12D7E60FE00620788 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FE2DF2D7E60FE00620788 /* HistoryTableViewCell.swift */; };
+		F80FE2E22D7E60FE00620788 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80FE2E02D7E60FE00620788 /* HistoryTableViewCell.xib */; };
+		F839361D2D77A3DF0076746F /* LoadingDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F839361C2D77A3DF0076746F /* LoadingDialog.swift */; };
 		F893B8872D5FC394008EBA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893B8862D5FC394008EBA95 /* AppDelegate.swift */; };
 		F893B8892D5FC394008EBA95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893B8882D5FC394008EBA95 /* SceneDelegate.swift */; };
-		F893B88B2D5FC394008EBA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893B88A2D5FC394008EBA95 /* ViewController.swift */; };
+		F893B88B2D5FC394008EBA95 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893B88A2D5FC394008EBA95 /* HomeVC.swift */; };
 		F893B88E2D5FC394008EBA95 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F893B88D2D5FC394008EBA95 /* Base */; };
 		F893B8902D5FC396008EBA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F893B88F2D5FC396008EBA95 /* Assets.xcassets */; };
 		F893B8932D5FC396008EBA95 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F893B8922D5FC396008EBA95 /* Base */; };
+		F893B89B2D5FC3DC008EBA95 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893B89A2D5FC3DC008EBA95 /* ImagePickerManager.swift */; };
+		F893B89D2D5FC419008EBA95 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893B89C2D5FC419008EBA95 /* APIKey.swift */; };
+		F893B8A02D5FCB56008EBA95 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = F893B89F2D5FCB56008EBA95 /* GoogleGenerativeAI */; };
+		F893B8A42D5FCD52008EBA95 /* AI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F893B8A32D5FCD52008EBA95 /* AI-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F80FE2D12D7E548A00620788 /* GuidedTourManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedTourManager.swift; sourceTree = "<group>"; };
+		F80FE2D92D7E60A900620788 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		F80FE2DF2D7E60FE00620788 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		F80FE2E02D7E60FE00620788 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		F839361C2D77A3DF0076746F /* LoadingDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDialog.swift; sourceTree = "<group>"; };
 		F893B8832D5FC394008EBA95 /* Derma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Derma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F893B8862D5FC394008EBA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F893B8882D5FC394008EBA95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F893B88A2D5FC394008EBA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F893B88A2D5FC394008EBA95 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F893B88D2D5FC394008EBA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F893B88F2D5FC396008EBA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F893B8922D5FC396008EBA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F893B8942D5FC396008EBA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F893B89A2D5FC3DC008EBA95 /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		F893B89C2D5FC419008EBA95 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		F893B8A32D5FCD52008EBA95 /* AI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AI-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +48,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F893B8A02D5FCB56008EBA95 /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F80FE2D32D7E5FDB00620788 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F893B89C2D5FC419008EBA95 /* APIKey.swift */,
+				F893B89A2D5FC3DC008EBA95 /* ImagePickerManager.swift */,
+				F80FE2D12D7E548A00620788 /* GuidedTourManager.swift */,
+				F839361C2D77A3DF0076746F /* LoadingDialog.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F80FE2D42D7E5FEB00620788 /* AppDeleaget */ = {
+			isa = PBXGroup;
+			children = (
+				F893B8862D5FC394008EBA95 /* AppDelegate.swift */,
+				F893B8882D5FC394008EBA95 /* SceneDelegate.swift */,
+			);
+			path = AppDeleaget;
+			sourceTree = "<group>";
+		};
+		F80FE2D52D7E602B00620788 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F893B88A2D5FC394008EBA95 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F80FE2DD2D7E60D900620788 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				F80FE2DE2D7E60E400620788 /* Cell */,
+				F80FE2D92D7E60A900620788 /* HistoryVC.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		F80FE2DE2D7E60E400620788 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F80FE2DF2D7E60FE00620788 /* HistoryTableViewCell.swift */,
+				F80FE2E02D7E60FE00620788 /* HistoryTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		F893B87A2D5FC394008EBA95 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +120,11 @@
 		F893B8852D5FC394008EBA95 /* Derma */ = {
 			isa = PBXGroup;
 			children = (
-				F893B8862D5FC394008EBA95 /* AppDelegate.swift */,
-				F893B8882D5FC394008EBA95 /* SceneDelegate.swift */,
-				F893B88A2D5FC394008EBA95 /* ViewController.swift */,
+				F80FE2DD2D7E60D900620788 /* History */,
+				F80FE2D42D7E5FEB00620788 /* AppDeleaget */,
+				F80FE2D52D7E602B00620788 /* Home */,
+				F80FE2D32D7E5FDB00620788 /* Helper */,
+				F893B8A32D5FCD52008EBA95 /* AI-Info.plist */,
 				F893B88C2D5FC394008EBA95 /* Main.storyboard */,
 				F893B88F2D5FC396008EBA95 /* Assets.xcassets */,
 				F893B8912D5FC396008EBA95 /* LaunchScreen.storyboard */,
@@ -83,6 +149,9 @@
 			dependencies = (
 			);
 			name = Derma;
+			packageProductDependencies = (
+				F893B89F2D5FCB56008EBA95 /* GoogleGenerativeAI */,
+			);
 			productName = Derma;
 			productReference = F893B8832D5FC394008EBA95 /* Derma.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +180,9 @@
 				Base,
 			);
 			mainGroup = F893B87A2D5FC394008EBA95;
+			packageReferences = (
+				F893B89E2D5FCB56008EBA95 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = F893B8842D5FC394008EBA95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +198,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F893B8902D5FC396008EBA95 /* Assets.xcassets in Resources */,
+				F80FE2E22D7E60FE00620788 /* HistoryTableViewCell.xib in Resources */,
 				F893B8932D5FC396008EBA95 /* Base in Resources */,
+				F893B8A42D5FCD52008EBA95 /* AI-Info.plist in Resources */,
 				F893B88E2D5FC394008EBA95 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F893B88B2D5FC394008EBA95 /* ViewController.swift in Sources */,
+				F80FE2E12D7E60FE00620788 /* HistoryTableViewCell.swift in Sources */,
+				F80FE2D22D7E548B00620788 /* GuidedTourManager.swift in Sources */,
+				F893B88B2D5FC394008EBA95 /* HomeVC.swift in Sources */,
+				F893B89B2D5FC3DC008EBA95 /* ImagePickerManager.swift in Sources */,
 				F893B8872D5FC394008EBA95 /* AppDelegate.swift in Sources */,
+				F893B89D2D5FC419008EBA95 /* APIKey.swift in Sources */,
+				F80FE2DB2D7E60AF00620788 /* HistoryVC.swift in Sources */,
+				F839361D2D77A3DF0076746F /* LoadingDialog.swift in Sources */,
 				F893B8892D5FC394008EBA95 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +441,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F893B89E2D5FCB56008EBA95 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-gemini/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F893B89F2D5FCB56008EBA95 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F893B89E2D5FCB56008EBA95 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F893B87B2D5FC394008EBA95 /* Project object */;
 }
